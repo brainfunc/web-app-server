@@ -8,9 +8,12 @@ const _ = require('lodash');
 
 const {mongoose} = require('./db/mongoose');
 const {Lead} = require('./models/lead');
+const {allowOriginWithAuth} = require('./middleware/middleware')
 const app = express();
 const port = process.env.PORT;
 
+// Middleware for allowing origins [front-end apps]
+app.use(allowOriginWithAuth);
 // Express middleware to convert request body to json
 app.use(bodyParser.json());
 
