@@ -1,7 +1,7 @@
 const allowOriginWithAuth = function (req, res, next) {
     const allowedOrigins = [
       'http://localhost:8080',
-      'http://askanexpert.herokuapp.com'];
+      'https://askanexpert-landing-page.herokuapp.com'];
     const origin = req.headers.origin;
     if(allowedOrigins.indexOf(origin) > -1){
       res.setHeader('Access-Control-Allow-Origin', origin);
