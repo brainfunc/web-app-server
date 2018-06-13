@@ -23,6 +23,8 @@ app.post('/leads', (req, res) => {
     email: req.body.email
   });
   lead.save().then((lead) => {
+    console.log('Success! Lead received on server')
+    console.log('Lead:', lead);
     res.send({
       message: "success",
       lead
