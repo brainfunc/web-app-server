@@ -1,5 +1,5 @@
 # Landing Page (Server)
-Server for landing page lead capture form 
+Server for landing page lead capture form
 
 # Running Instruction
 - Run the following script to run on localhost. Starts on port 3000
@@ -28,6 +28,9 @@ npm i nodemon --save-dev
 npm i chai mocha supertest --save-dev
 npm test-watch
 ```
+
+# Deployment Instruction
+The deployment and testing instructions for deploying to heroku can be found in [**instructions.md**](./scripts/instructions.md) inside /scripts folder.
 
 # Author
   - Tejas Nikumbh
