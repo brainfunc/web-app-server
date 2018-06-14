@@ -6,24 +6,17 @@ Deploying instructions for deploying to heroku.
 ## Initial Deployment
 ```bash
 bash scripts/create.bash <app-name> &&
-bash scripts/deploy.bash <app-name>
 ```
 Then add mLab addon from heroku dashboard to app with app-name.herokuapp.com
 
 For example
 ```bash
 bash scripts/create.bash askanexpert-server &&
-bash scripts/deploy.bash askanexpert-server
 ```
 
 ## Subsequent Deploys
 ```bash
-bash scripts/deploy.bash <app-name>
-```
-
-For example
-```bash
-bash scripts/deploy.bash askanexpert-server
+git push heroku
 ```
 
 # Testing Instructions
