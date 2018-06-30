@@ -1,6 +1,8 @@
 const allowOriginWithAuth = function (req, res, next) {
     const allowedOrigins = [
       'http://localhost:8080',
+      'http://brainfunc.herokuapp.com',
+      'https://brainfunc.herokuapp.com',
       'http://brainfunc-landing-page.herokuapp.com',
       'https://brainfunc-landing-page.herokuapp.com'];
     const origin = req.headers.origin;
