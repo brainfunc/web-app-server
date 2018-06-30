@@ -1,5 +1,5 @@
-# Landing Page (Server)
-Server for landing page lead capture form
+# Web App (Server)
+Server for web app for core game
 
 # Running Instruction
 - Run the following script to run on localhost. Starts on port 3000
