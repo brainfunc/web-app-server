@@ -1,5 +1,5 @@
 # Web App (Server)
-Server for web app for core game
+Server for web app for core game web-app.
 
 # Running Instruction
 - Run the following script to run on localhost. Starts on port 3000
